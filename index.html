@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Symposium Registration Form</title>
+    <link rel="stylesheet" href="sanj.css">
+</head>
+<body>
+
+    <center>
+        <h1>TECHFEST 2026</h1>
+        <h2>College Symposium Registration Form</h2>
+    </center>
+
+    <hr>
+
+    <form class="registration-form" method="post">
+
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your name"><br><br>
+
+        <label for="registerNumber">Register Number:</label><br>
+        <input type="text" id="registerNumber" name="registerNumber" placeholder="Enter register number"><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter phone number"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="genderMale" name="gender" value="male"> <label for="genderMale">Male</label>
+        <input type="radio" id="genderFemale" name="gender" value="female"> <label for="genderFemale">Female</label>
+        <input type="radio" id="genderOther" name="gender" value="other"> <label for="genderOther">Other</label>
+        <br><br>
+
+        <label for="department">Department:</label><br>
+        <select id="department" name="department">
+            <option>ECE</option>
+            <option>CSE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+            <option>CIVIL</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        <label for="year">Year of Study:</label><br>
+        <select id="year" name="year">
+            <option>I Year</option>
+            <option>II Year</option>
+            <option>III Year</option>
+            <option>IV Year</option>
+        </select>
+        <br><br>
+
+        <label for="collegeName">College Name:</label><br>
+        <input type="text" id="collegeName" name="collegeName" placeholder="Enter college name">
+        <br><br>
+
+        <label for="eventName">Event Name:</label><br>
+        <select id="eventName" name="eventName">
+            <option>Paper Presentation</option>
+            <option>Project Expo</option>
+            <option>Debugging</option>
+            <option>Quiz Competition</option>
+            <option>Web Designing</option>
+            <option>Poster Presentation</option>
+        </select>
+        <br><br>
+
+        <label>Accommodation Required?</label><br>
+        <input type="radio" id="accommodationYes" name="accommodation" value="yes"> <label for="accommodationYes">Yes</label>
+        <input type="radio" id="accommodationNo" name="accommodation" value="no"> <label for="accommodationNo">No</label>
+
+        <br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <button type="submit" class="btn submit-btn">Register</button>
+        <button type="reset" class="btn reset-btn">Clear</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Event Schedule</h2>
+    <table class="event-schedule">
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Paper Presentation</td>
+            <td>June 20, 2026</td>
+            <td>10:00 AM</td>
+        </tr>
+        <tr>
+            <td>Project Expo</td>
+            <td>June 21, 2026</td>
+            <td>11:00 AM</td>
+        </tr>
+        <tr>
+            <td>Quiz Competition</td>
+            <td>June 22, 2026</td>
+            <td>12:00 PM</td>
+        </tr>
+        <tr>
+            <td>Debugging</td>
+            <td>June 23, 2026</td>
+            <td>01:00 PM</td>
+        </tr>
+        <tr>
+            <td>Web Designing</td>
+            <td>June 24, 2026</td>
+            <td>02:00 PM</td>
+        </tr>
+    </table>
+
+</body>
+</html>
